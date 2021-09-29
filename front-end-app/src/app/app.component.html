@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <app-filteration (noCustomersEmitter)="checkNoUsers($event)" (resetPageEmitter)="onResetPage($event)" 
+            (customersEmitter)="onCustomersFiltered($event)"     
+            ></app-filteration>
+        </div>
+        <div class="col-6">
+            <app-users 
+            [users]="filteredCustomers" 
+            [page]="page"></app-users>
+        </div>
+        <div>
+            <app-no-users
+            [users]="noCustomers"
+            ></app-no-users>
+        </div>
+    </div>
+</div>
+
