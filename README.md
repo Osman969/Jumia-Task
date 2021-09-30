@@ -22,7 +22,7 @@ I am building a full stack Angular 12 + Spring Boot .The back-end server uses Sp
 This is the happy scenario approach.
 <img width="522" alt="approach" src="https://user-images.githubusercontent.com/64013184/134789015-3eccb61b-aabe-48e4-ad32-5afa6bf9dd2a.PNG">.
 
-Database is one table contains id, name, phone.
+Database is one table contains id, name and phone.
 
 This is the architecture I followed as shown here.
 
