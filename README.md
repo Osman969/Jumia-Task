@@ -59,7 +59,7 @@ then run a container of this image : <b>docker run -d --name angular-container -
 <li>docker run -d --name angular-container -p 9090:80 angular-image</li>
 </ul>
 
-# Now You Can Access The Application <br>
+# Now You Can Access The Application On <br>
 # http://localhost:9090
 
 
