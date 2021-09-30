@@ -17,9 +17,6 @@ I am building a full stack Angular 12 + Spring Boot .The back-end server uses Sp
 – If there is not phone number with the searched phone number a message will be shown to alert the user
 <img width="597" alt="invalid" src="https://user-images.githubusercontent.com/64013184/134788480-6b04f967-53bc-4110-ad07-2b1cfc543a1d.PNG">
 
-# Development server,
-Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
 This is the happy scenario approach.
 <img width="522" alt="approach" src="https://user-images.githubusercontent.com/64013184/134789015-3eccb61b-aabe-48e4-ad32-5afa6bf9dd2a.PNG">.
 
