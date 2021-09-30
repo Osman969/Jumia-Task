@@ -46,15 +46,19 @@ then run this command to build an angular image based on the docker file: docker
 then run a container of this image : docker run -d --name angular-container -p 9090:80 angular-image
 
 so in back-end-app
-mvn package
-docker build -t spring-boot-jumia-im .
-docker run -d --name spring-boot-container -p 8080:8080 spring-boot-jumia-im
+<ul>
+<li>mvn package</li>
+<li>docker build -t spring-boot-jumia-im .</li>
+<li>docker run -d --name spring-boot-container -p 8080:8080 spring-boot-jumia-im</li>
+</ul>
 
 and in the front-end-app
 npm install  
 ng build --prod
 docker build -t angular-image .
 docker run -d --name angular-container -p 9090:80 angular-image
+
+
 
        
 
