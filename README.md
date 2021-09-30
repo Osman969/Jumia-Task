@@ -35,10 +35,10 @@ Spring boot for backend, Jpa for interacting with database, spring aop using con
 First use this command in back-end-app path:  mvn package <br>
 this will generate the target file and the jar <br>
 then use this command in the same path to create docker image based on docker file: docker build -t spring-boot-jumia-im .<br>
-now we have an image od our spring boot application, then we need a container to run this image <br>
+now we have an image on our spring boot application, then we need a container to run this image <br>
 so run this command :  docker run -d --name spring-boot-container -p 8080:8080 spring-boot-jumia-im<br>
 
-now we have finished dockerizing our spring boot app .<br>
+Now we have finished dockerizing our spring boot app .<br>
 Then we go to angular project path front-end-app <br>
 first run this command to generate node modules :  npm install <br> 
 then run this command to generate dist files:  ng build --prod <br>
