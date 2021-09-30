@@ -32,17 +32,17 @@ I have used angular as a frontend framework,
 Spring boot for backend, Jpa for interacting with database, spring aop using controller advice to handle exceptions, spring rest for RestControllers, JUNIT 5 to apply tests on project, mockito testing to mock my services and docker as a deployment tool.<br>
 
 # How to run my application?
-First use this command in back-end-app path:  mvn package <br>
+First use this command in back-end-app path: <b> mvn package</b> <br>
 this will generate the target file and the jar <br>
-then use this command in the same path to create docker image based on docker file: docker build -t spring-boot-jumia-im .<br>
+then use this command in the same path to create docker image based on docker file: <b>docker build -t spring-boot-jumia-im .</b><br>
 now we have an image on our spring boot application, then we need a container to run this image <br>
-so run this command :  docker run -d --name spring-boot-container -p 8080:8080 spring-boot-jumia-im<br>
+so run this command :  <b>docker run -d --name spring-boot-container -p 8080:8080 spring-boot-jumia-im</b><br>
 Now we have finished dockerizing our spring boot app .<br><br>
 Then we go to angular project path front-end-app <br>
-first run this command to generate node modules :  npm install <br> 
-then run this command to generate dist files:  ng build --prod <br>
-then run this command to build an angular image based on the docker file: docker build -t angular-image . <br>
-then run a container of this image : docker run -d --name angular-container -p 9090:80 angular-image <br>
+first run this command to generate node modules :  <b>npm install</b> <br> 
+then run this command to generate dist files:  <b>ng build --prod</b> <br>
+then run this command to build an angular image based on the docker file: <b>docker build -t angular-image .</b> <br>
+then run a container of this image : <b>docker run -d --name angular-container -p 9090:80 angular-image</b> <br>
 
 <b>so in back-end-app</b>
 <ul>
